@@ -1,0 +1,108 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/*For the body*/
+body {
+    height: 100%;
+ 
+}
+
+
+.nav{
+    padding: 50px;
+}
+
+.nav-item{
+    list-style-type: none;
+    padding: 20px;
+    text-align: center;
+
+}
+
+
+/*For the nav bar*/
+.HomepageLink {
+    font-family: 'Gamja Flower', cursive;
+    font-size: 30px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+
+.AboutLink{
+    font-family: 'Gamja Flower', cursive;
+    font-size: 30px;
+   
+    text-decoration: none;
+    color: black;
+
+
+}
+
+
+.OtherLinks{
+    font-family: 'Schoolbell', cursive;
+    font-size: 18px;
+    margin-left:120px;
+    text-decoration: none;
+    color: black;
+
+
+}
+
+
+
+main{
+    background-color: rgb(147, 217, 255);
+    padding: 75px;
+    margin: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+h1{
+    padding: 75px;
+    text-align: center;
+    background-color: white;
+    font-family: 'Gamja Flower', cursive;
+    font-weight: normal;
+}
+
+
+  
+
+  p{
+    background-color: white;
+    padding: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Schoolbell', cursive;
+    font-size: 30px;
+
+  }
+
+  .dessertsimages{
+    display: flex;
+    flex-direction: row;
+    margin-top: 200px;
+    
+  }
+
+  .dessertsimage{
+
+    flex:2;
+  }
+
+h2{
+    font-size: 20px;
+    margin-top: 25px;
+    background-color: white;
+    text-align: center;
+    padding:20px;
+    font-family: 'Gamja Flower', cursive;
+    font-weight: normal;
+}
